@@ -1,0 +1,30 @@
+{
+  "name": "vyan-media",
+  "version": "1.0.0",
+  "description": "Vyan Media - Digital Agency Website",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaikafridi557/Vyan-Media.git"
+  },
+  "keywords": [
+    "digital-agency",
+    "web-development",
+    "digital-marketing",
+    "3d-design",
+    "ui-ux"
+  ],
+  "author": "Vyan Media",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shaikafridi557/Vyan-Media/issues"
+  },
+  "homepage": "https://github.com/shaikafridi557/Vyan-Media#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+} 
