@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Read Vyan Media's latest blog post on technology, digital marketing, 3D design, and innovation.">
+  <meta name="keywords" content="technology blogs, digital marketing tips, 3D design trends, innovation in tech, Vyan Media insights">
+  <meta name="author" content="Vyan Media">
+  <title>Vyan Media - Blog Post</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Inter:wght@400;500;600&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/blog.css">
+  <style>
+    :root {
+      --heading-font: 'Playfair Display', serif;
+      --body-font: 'Inter', sans-serif;
+      --accent-font: 'Montserrat', sans-serif;
+      --logo-font: 'Playfair Display', serif;
+    }
+    body {
+      font-family: var(--body-font);
+    }
+    h1, h2, h3, h4, h5, h6 {
+      font-family: var(--heading-font);
+    }
+    .logo a {
+      font-family: var(--logo-font);
+      color: #ffffff;
+      font-size: 2.2rem;
+      font-weight: 600;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+      transition: all 0.3s ease;
+    }
+    .logo a:hover {
+      text-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    .cta-btn {
+      font-family: var(--accent-font);
+    }
+    .social-icons {
+      display: flex;
+      gap: 15px;
+      margin-top: 10px;
+    }
+    .social-icons a {
+      color: #ffffff;
+      font-size: 1.5rem;
+      transition: all 0.3s ease;
+    }
+    .social-icons a:hover {
+      color: #00ff00;
+      transform: translateY(-3px);
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="index.html">VYAN MEDIA</a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="our-work.html">Our Work</a></li>
+        <li><a href="about-us.html">About Us</a></li>
+        <li><a href="blogs.html" class="active">Blogs</a></li>
+        <li><a href="index.html#get-started" class="cta-btn">Get Started</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Blog Post Section -->
+  <section id="blog-post" class="blog-post-section">
+    <div class="blog-post-container">
+      <a href="blogs.html" class="back-link">← Back to Blogs</a>
+      <img id="blog-image" src="" alt="Blog Image">
+      <h1 id="blog-title" class="neon-text"></h1>
+      <div id="blog-body"></div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-column">
+      <h4>Vyan</h4>
+      <p>Switch on your digital vision with futuristic solutions.</p>
+    </div>
+    <div class="footer-column">
+      <h4>Quick Links</h4>
+      <a href="index.html#home">Home</a>
+      <a href="services.html">Services</a>
+      <a href="our-work.html">Our Work</a>
+      <a href="about-us.html">About Us</a>
+      <a href="blogs.html">Blogs</a>
+    </div>
+    <div class="footer-column">
+      <h4>Follow Us</h4>
+      <div class="social-icons">
+        <a href="https://www.instagram.com/accounts/edit/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/vyan-media-2464a6362/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=61575805499425" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.youtube.com/channel/UCj4hCkRWDqTfE0xVFWZ3gzw" target="_blank"><i class="fab fa-youtube"></i></a>
+        <a href="https://twitter.com/vyanmedia" target="_blank"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+    <div class="footer-column">
+      <h4>Contact</h4>
+      <p>Email: <a href="mailto:vyanmediaa@gmail.com">vyanmediaa@gmail.com</a></p>
+      <p>Phone: <a href="tel:+916300685106">+91 6300 685 106</a></p>
+    </div>
+    <div class="footer-bottom">
+      © 2025 Vyan - All Rights Reserved
+    </div>
+  </footer>
+
+  <script>
+    // Blog Data
+    const blogs = [
+      {
+        id: 1,
+        title: "The Role of AI in Modern Web Development",
+        image: "images/aiweb.jpeg",
+        description: "Discover how AI tools are revolutionizing web development, from automated coding to personalized user experiences.",
+        body: `
+          <p>Artificial Intelligence (AI) is transforming the landscape of web development in 2025. From automating repetitive tasks to enhancing user experiences, AI tools are becoming indispensable for developers.</p>
+          <h4>Key Benefits of AI in Web Development</h4>
+          <ul>
+            <li><strong>Automated Coding:</strong> Tools like GitHub Copilot can generate code snippets, reducing development time.</li>
+            <li><strong>Personalized UX:</strong> AI algorithms analyze user behavior to deliver tailored content and interfaces.</li>
+            <li><strong>Testing and Debugging:</strong> AI-powered tools can identify bugs and suggest fixes faster than traditional methods.</li>
+          </ul>
+          <p>As AI continues to evolve, its integration into web development will only deepen, offering new opportunities for innovation and efficiency.</p>
+        `
+      },
+      {
+        id: 2,
+        title: "Top Social Media Marketing Trends to Watch in 2025",
+        image: "images/media.jpeg",
+        description: "Learn about the latest trends in social media marketing, including AR filters, short-form video content, and AI-driven campaigns.",
+        body: `
+          <p>Social media marketing in 2025 is all about leveraging cutting-edge technologies to engage audiences. Here are the top trends to watch:</p>
+          <h4>Emerging Trends</h4>
+          <ul>
+            <li><strong>AR Filters:</strong> Brands are using augmented reality filters on platforms like Instagram to create interactive experiences.</li>
+            <li><strong>Short-Form Video:</strong> TikTok-style videos continue to dominate, with platforms prioritizing quick, engaging content.</li>
+            <li><strong>AI-Driven Campaigns:</strong> AI tools help analyze audience data to create hyper-targeted ad campaigns.</li>
+          </ul>
+          <p>Staying ahead of these trends can help businesses maximize their social media impact and connect with audiences more effectively.</p>
+        `
+      },
+      {
+        id: 3,
+        title: "How 3D Design is Transforming the Gaming Industry",
+        image: "images/3dmarketing.jpeg",
+        description: "Explore the impact of advanced 3D design techniques on creating immersive gaming experiences that captivate players.",
+        body: `
+          <p>3D design has become a cornerstone of the gaming industry, enabling developers to create visually stunning and immersive worlds.</p>
+          <h4>Impact of 3D Design</h4>
+          <ul>
+            <li><strong>Realistic Graphics:</strong> Advanced rendering techniques bring lifelike visuals to games, enhancing player engagement.</li>
+            <li><strong>Interactive Environments:</strong> 3D design allows for dynamic environments that players can interact with in real-time.</li>
+            <li><strong>VR and AR Integration:</strong> 3D design is crucial for creating seamless virtual and augmented reality experiences.</li>
+          </ul>
+          <p>As technology advances, 3D design will continue to push the boundaries of what's possible in gaming, offering players richer experiences.</p>
+        `
+      },
+      {
+        id: 4,
+        title: "The Future of VR: Revolutionizing Business Operations",
+        image: "images/vr.jpeg",
+        description: "See how virtual reality is reshaping industries, from virtual meetings to product design and customer engagement.",
+        body: `
+          <p>Virtual Reality (VR) is revolutionizing business operations by enabling immersive experiences for training, collaboration, and product development.</p>
+          <h4>VR in Business</h4>
+          <ul>
+            <li><strong>Virtual Meetings:</strong> VR platforms allow teams to collaborate in 3D spaces, improving communication and engagement.</li>
+            <li><strong>Product Design:</strong> Businesses use VR to prototype and visualize products before manufacturing.</li>
+            <li><strong>Customer Engagement:</strong> VR experiences help brands connect with customers in innovative ways.</li>
+          </ul>
+          <p>As VR technology matures, its applications in business will continue to expand, driving efficiency and creativity.</p>
+        `
+      },
+      {
+        id: 5,
+        title: "Blockchain Beyond Crypto: Applications in Digital Solutions",
+        image: "images/blockchain.jpeg",
+        description: "Uncover how blockchain technology is enhancing security and transparency in digital marketing and web development.",
+        body: `
+          <p>Blockchain technology is moving beyond cryptocurrencies and finding applications in digital marketing, web development, and more.</p>
+          <h4>Blockchain Applications</h4>
+          <ul>
+            <li><strong>Security:</strong> Blockchain provides tamper-proof records, enhancing data security for businesses.</li>
+            <li><strong>Transparency:</strong> Decentralized ledgers increase transparency in transactions and processes.</li>
+            <li><strong>Smart Contracts:</strong> Automated contracts streamline business operations and reduce costs.</li>
+          </ul>
+          <p>Embracing blockchain can help organizations build trust and efficiency in the digital age.</p>
+        `
+      },
+      {
+        id: 6,
+        title: "SEO Strategies for Small Businesses in 2025",
+        image: "images/seoservice.avif",
+        description: "Boost your small business's online presence with these actionable SEO tips tailored for 2025 trends.",
+        body: `
+          <p>SEO remains a critical component for small businesses aiming to grow online. Here are top strategies for 2025:</p>
+          <h4>SEO Tips</h4>
+          <ul>
+            <li><strong>Voice Search Optimization:</strong> Optimize content for voice queries as smart assistants become more popular.</li>
+            <li><strong>Mobile-First Design:</strong> Ensure your website is fully responsive and loads quickly on all devices.</li>
+            <li><strong>Quality Content:</strong> Focus on creating valuable, relevant content that addresses user needs.</li>
+          </ul>
+          <p>Implementing these strategies will help your business stay visible and competitive in the evolving digital landscape.</p>
+        `
+      }
+    ];
+
+    // Get Blog ID from URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const blogId = parseInt(urlParams.get('id'));
+
+    // Find the blog post
+    const blog = blogs.find(b => b.id === blogId);
+
+    // Populate the page
+    if (blog) {
+      document.title = `Vyan Media - ${blog.title}`;
+      document.querySelector('meta[name="description"]').setAttribute("content", blog.description);
+      document.getElementById('blog-image').src = blog.image;
+      document.getElementById('blog-image').alt = blog.title;
+      document.getElementById('blog-title').textContent = blog.title;
+      document.getElementById('blog-body').innerHTML = blog.body;
+    } else {
+      // Handle case where blog is not found
+      document.getElementById('blog-title').textContent = "Blog Not Found";
+      document.getElementById('blog-body').innerHTML = "<p>Sorry, the blog post you're looking for does not exist.</p>";
+    }
+
+    // Mobile Navigation Hamburger Toggle
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.querySelector('.nav-links');
+
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Vyan Media - About Us</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Inter:wght@400;500;600&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/about.css">
+  <style>
+    :root {
+      --heading-font: 'Playfair Display', serif;
+      --body-font: 'Inter', sans-serif;
+      --accent-font: 'Montserrat', sans-serif;
+      --logo-font: 'Playfair Display', serif;
+    }
+    body {
+      font-family: var(--body-font);
+    }
+    h1, h2, h3, h4, h5, h6 {
+      font-family: var(--heading-font);
+    }
+    .logo a {
+      font-family: var(--logo-font);
+      color: #ffffff;
+      font-size: 2.2rem;
+      font-weight: 600;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+      transition: all 0.3s ease;
+    }
+    .logo a:hover {
+      text-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    .cta-btn {
+      font-family: var(--accent-font);
+    }
+    .social-icons {
+      display: flex;
+      gap: 15px;
+      margin-top: 10px;
+    }
+    .social-icons a {
+      color: #ffffff;
+      font-size: 1.5rem;
+      transition: all 0.3s ease;
+    }
+    .social-icons a:hover {
+      color: #00ff00;
+      transform: translateY(-3px);
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="index.html">VYAN MEDIA</a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="our-work.html">Our Work</a></li>
+        <li><a href="about-us.html" class="active">About Us</a></li>
+        <li><a href="blogs.html">Blogs</a></li>
+        <li><a href="contact.html" class="cta-btn">Get Started</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section with Parallax -->
+  <section id="about-hero" class="about-hero">
+    <div class="parallax-bg" style="background-image: url('images/aboutus.avif');"></div>
+    <div class="hero-content">
+      <h1 class="neon-text">About Vyan Media</h1>
+      <p class="fade-in">We are the visionaries behind tomorrow's digital frontier, crafting immersive experiences that ignite the future.</p>
+    </div>
+  </section>
+
+  <!-- Team Section -->
+  <section id="team" class="team-section">
+    <h2 class="section-heading neon-text">Our Visionary Crew</h2>
+    <p class="section-intro">At Vyan Media, our team of 8 trailblazers combines creativity and innovation to switch on your digital vision. Meet the minds driving our mission forward.</p>
+
+    <!-- Core Team (Two Rows) -->
+    <div class="core-team">
+      <!-- Row 1: Head and Coordinator -->
+      <div class="team-row">
+        <div class="team-member head">
+          <div class="member-image">
+            <img src="images/vignesh.jpg" alt="Yalamakuri Vignesh">
+            <div class="image-overlay"></div>
+          </div>
+          <div class="member-content">
+            <h3>Yalamakuri Vignesh</h3>
+            <p class="role">Head of Vyan Media</p>
+            <p>With 5 years of expertise in 3D designing, animations, and game development, Vignesh leads Vyan Media with a passion for creating immersive digital experiences that push boundaries.</p>
+          </div>
+        </div>
+        <div class="team-member coordinator">
+          <div class="member-image">
+            <img src="media/sreeja.jpg" alt="Sreeja Yadav">
+            <div class="image-overlay"></div>
+          </div>
+          <div class="member-content">
+            <h3>Sreeja Yadav</h3>
+            <p class="role">Coordinator</p>
+            <p>Sreeja ensures seamless collaboration across projects, keeping our team aligned and our visions on track with her exceptional organizational skills.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Row 2: Developers -->
+      <div class="team-row">
+        <div class="team-member developer">
+          <div class="member-image">
+            <img src="images/javeed.jpg" alt="Shaik Javeed">
+            <div class="image-overlay"></div>
+          </div>
+          <div class="member-content">
+            <h3>Shaik Javeed</h3>
+            <p class="role">Developer</p>
+            <p>Javeed brings technical brilliance to our web and mobile applications, crafting solutions that are as functional as they are futuristic.</p>
+            <a href="https://codeserve.netlify.app/" class="portfolio-link" target="_blank">View Portfolio</a>
+          </div>
+        </div>
+        <div class="team-member developer">
+          <div class="member-image">
+            <img src="images/srinivas1.jpg" alt="Somavarapu Sai Srinivas">
+            <div class="image-overlay"></div>
+          </div>
+          <div class="member-content">
+            <h3>Somavarapu Sai Srinivas</h3>
+            <p class="role">Developer</p>
+            <p>Srinivas builds robust digital platforms with a keen eye for detail, ensuring every project shines with innovation.</p>
+            <a href="https://venkatasaisrinivasportfolio.netlify.app/" class="portfolio-link" target="_blank">View Portfolio</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Legendary Team Section -->
+    <div class="legendary-team">
+      <h2 class="legendary-heading">The Cosmic Innovators</h2>
+      <p class="legendary-intro">Our remaining 5 team members are the celestial forces behind Vyan Media's groundbreaking projects, each a legend in their own right.</p>
+      <div class="legendary-grid">
+        <div class="legendary-member">
+          <div class="member-orb">
+            <img src="media/legend1.jpg" alt="Team Member 1">
+            <div class="orb-glow"></div>
+          </div>
+          <h3>Akash Nebula</h3>
+          <p class="role">Digital Marketing Specialist</p>
+          <p>Akash crafts campaigns that light up the digital galaxy, boosting visibility with stellar strategies.</p>
+        </div>
+        <div class="legendary-member">
+          <div class="member-orb">
+            <img src="media/legend2.jpg" alt="Team Member 2">
+            <div class="orb-glow"></div>
+          </div>
+          <h3>Meera Nova</h3>
+          <p class="role">SEO Expert</p>
+          <p>Meera navigates the SEO cosmos, ensuring our projects reach the farthest corners of the internet.</p>
+        </div>
+        <div class="legendary-member">
+          <div class="member-orb">
+            <img src="media/legend3.jpg" alt="Team Member 3">
+            <div class="orb-glow"></div>
+          </div>
+          <h3>Rohan Eclipse</h3>
+          <p class="role">UI/UX Designer</p>
+          <p>Rohan designs interfaces that dazzle, creating user experiences that feel out of this world.</p>
+        </div>
+        <div class="legendary-member">
+          <div class="member-orb">
+            <img src="media/legend4.jpg" alt="Team Member 4">
+            <div class="orb-glow"></div>
+          </div>
+          <h3>Sana Starlight</h3>
+          <p class="role">Video Editor</p>
+          <p>Sana weaves cinematic magic, transforming raw footage into captivating stories that shine.</p>
+        </div>
+        <div class="legendary-member">
+          <div class="member-orb">
+            <img src="media/legend5.jpg" alt="Team Member 5">
+            <div class="orb-glow"></div>
+          </div>
+          <h3>Arjun Vortex</h3>
+          <p class="role">3D Animator</p>
+          <p>Arjun brings animations to life with dynamic 3D designs that swirl with creativity.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-column">
+      <h4>Vyan</h4>
+      <p>Switch on your digital vision with futuristic solutions.</p>
+    </div>
+    <div class="footer-column">
+      <h4>Quick Links</h4>
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="our-work.html">Our Work</a>
+      <a href="about-us.html">About Us</a>
+      <a href="blogs.html">Blogs</a>
+    </div>
+    <div class="footer-column">
+      <h4>Follow Us</h4>
+      <div class="social-icons">
+        <a href="https://www.instagram.com/accounts/edit/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/vyan-media-2464a6362/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=61575805499425" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.youtube.com/channel/UCj4hCkRWDqTfE0xVFWZ3gzw" target="_blank"><i class="fab fa-youtube"></i></a>
+        <a href="https://twitter.com/vyanmedia" target="_blank"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+    <div class="footer-column">
+      <h4>Contact</h4>
+      <p>Email: <a href="mailto:vyanmediaa@gmail.com">vyanmediaa@gmail.com</a></p>
+      <p>Phone: <a href="tel:+916300685106">+91 6300 685 106</a></p>
+    </div>
+    <div class="footer-bottom">
+      © 2025 Vyan - All Rights Reserved
+    </div>
+  </footer>
+
+  <script>
+    // Mobile Navigation Hamburger Toggle
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.querySelector('.nav-links');
+
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+
+    // Scroll Animations
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.team-member, .legendary-member').forEach(item => {
+      observer.observe(item);
+    });
+
+    // Parallax Effect
+    window.addEventListener('scroll', () => {
+      const parallax = document.querySelector('.parallax-bg');
+      let scrollPosition = window.pageYOffset;
+      parallax.style.transform = `translateY(${scrollPosition * 0.5}px)`;
+    });
+  </script>
+</body>
+</html>

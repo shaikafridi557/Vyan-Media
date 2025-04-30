@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Our Services | Web Development, Digital Marketing & Design Services - Vyan</title>
+  <meta name="description" content="Explore Vyan's comprehensive digital services including web development, mobile apps, digital marketing, SEO, UI/UX design, video editing, and 3D animation. Professional solutions for your business.">
+  <meta name="keywords" content="web development services, mobile app development, digital marketing agency, SEO services, UI/UX design, video editing, 3D animation, digital agency">
+  <meta name="author" content="Vyan Media">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Our Services | Vyan Digital Agency">
+  <meta property="og:description" content="Professional digital services for web development, marketing, and design">
+  <meta property="og:image" content="media/digital marketing.gif">
+  <meta property="og:url" content="https://vyan.com/services">
+  <meta property="og:type" content="website">
+  <link rel="canonical" href="https://vyan.com/services">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Inter:wght@400;500;600&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/services.css">
+  <style>
+    :root {
+      --heading-font: 'Playfair Display', serif;
+      --body-font: 'Inter', sans-serif;
+      --accent-font: 'Montserrat', sans-serif;
+      --logo-font: 'Playfair Display', serif;
+    }
+    body {
+      font-family: var(--body-font);
+    }
+    h1, h2, h3, h4, h5, h6 {
+      font-family: var(--heading-font);
+    }
+    .logo a {
+      font-family: var(--logo-font);
+      color: #ffffff;
+      font-size: 2.2rem;
+      font-weight: 600;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+      transition: all 0.3s ease;
+    }
+    .logo a:hover {
+      text-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    .cta-btn {
+      font-family: var(--accent-font);
+    }
+    .social-icons {
+      display: flex;
+      gap: 15px;
+      margin-top: 10px;
+    }
+    .social-icons a {
+      color: #ffffff;
+      font-size: 1.5rem;
+      transition: all 0.3s ease;
+    }
+    .social-icons a:hover {
+      color: #00ff00;
+      transform: translateY(-3px);
+    }
+  </style>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Digital Services",
+      "provider": {
+        "@type": "Organization",
+        "name": "Vyan Media"
+      },
+      "serviceType": [
+        "Web Development",
+        "Mobile App Development",
+        "Digital Marketing",
+        "SEO",
+        "UI/UX Design",
+        "Video Editing",
+        "3D Animation"
+      ],
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="index.html">VYAN MEDIA</a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html" class="active">Services</a></li>
+        <li><a href="our-work.html">Our Work</a></li>
+        <li><a href="about-us.html">About Us</a></li>
+        <li><a href="blogs.html">Blogs</a></li>
+        <li><a href="contact.html" class="cta-btn">Get Started</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section with Parallax -->
+  <section id="services-hero" class="services-hero">
+    <div class="parallax-bg" style="background-image: url('images/programming.jpg');"></div>
+    <div class="hero-content">
+      <h1 class="neon-text">Our Services</h1>
+      <p class="fade-in">Step into a world of digital innovation with our cutting-edge solutions.</p>
+      <a href="#services-list" class="cta-btn pulse">Explore Now</a>
+    </div>
+  </section>
+
+  <!-- Services List Section -->
+  <section id="services-list" class="services-list">
+    <h2 class="section-heading neon-text">Discover Our Expertise</h2>
+    <div class="services-grid">
+      <div class="service-item">
+        <div class="service-image">
+          <img src="images/neonuiux.webp" alt="Web Applications">
+          <div class="image-overlay"></div>
+        </div>
+        <div class="service-content">
+          <div class="service-icon">
+            <i class="fas fa-globe"></i>
+          </div>
+          <h3>Web Applications</h3>
+          <p>Dynamic, scalable web applications with real-time features and seamless integrations to empower your business.</p>
+          <ul>
+            <li>Real-Time Features</li>
+            <li>Cloud Integration</li>
+            <li>Custom Dashboards</li>
+          </ul>
+          <a href="#get-started" class="service-cta">Discover More</a>
+        </div>
+      </div>
+      <div class="service-item">
+        <div class="service-image">
+          <img src="images/app service.avif" alt="Mobile Applications">
+          <div class="image-overlay"></div>
+        </div>
+        <div class="service-content">
+          <div class="service-icon">
+            <i class="fas fa-mobile-alt"></i>
+          </div>
+          <h3>Mobile Applications</h3>
+          <p>High-performance mobile apps for iOS and Android, crafted to deliver exceptional user experiences.</p>
+          <ul>
+            <li>AR/VR Integration</li>
+            <li>Offline Capabilities</li>
+            <li>Custom Animations</li>
+          </ul>
+          <a href="#get-started" class="service-cta">Discover More</a>
+        </div>
+      </div>
+      <div class="service-item">
+        <div class="service-image">
+          <img src="images/digital.jpg" alt="Digital Marketing">
+          <div class="image-overlay"></div>
+        </div>
+        <div class="service-content">
+          <div class="service-icon">
+            <i class="fas fa-bullhorn"></i>
+          </div>
+          <h3>Digital Marketing</h3>
+          <p>Boost your brand with AI-driven strategies, viral campaigns, and immersive storytelling.</p>
+          <ul>
+            <li>AI-Powered Ads</li>
+            <li>Viral Campaigns</li>
+            <li>Interactive Content</li>
+          </ul>
+          <a href="#get-started" class="service-cta">Discover More</a>
+        </div>
+      </div>
+      <div class="service-item">
+        <div class="service-image">
+          <img src="images/seoservice.avif" alt="SEO">
+          <div class="image-overlay"></div>
+        </div>
+        <div class="service-content">
+          <div class="service-icon">
+            <i class="fas fa-search"></i>
+          </div>
+          <h3>SEO</h3>
+          <p>Dominate search rankings with advanced techniques and predictive analytics.</p>
+          <ul>
+            <li>AI Keyword Analysis</li>
+            <li>Voice Search Optimization</li>
+            <li>Global SEO</li>
+          </ul>
+          <a href="#get-started" class="service-cta">Discover More</a>
+        </div>
+      </div>
+      <div class="service-item">
+        <div class="service-image">
+          <img src="images/uiux.avif" alt="UI/UX Designs">
+          <div class="image-overlay"></div>
+        </div>
+        <div class="service-content">
+          <div class="service-icon">
+            <i class="fas fa-paint-brush"></i>
+          </div>
+          <h3>UI/UX Designs</h3>
+          <p>Stunning, user-centric designs with micro-interactions and immersive interfaces.</p>
+          <ul>
+            <li>3D Interfaces</li>
+            <li>Micro-Interactions</li>
+            <li>Accessibility Focus</li>
+          </ul>
+          <a href="#get-started" class="service-cta">Discover More</a>
+        </div>
+      </div>
+      <div class="service-item">
+        <div class="service-image">
+          <img src="images/videoediting.jpeg" alt="Video Editing">
+          <div class="image-overlay"></div>
+        </div>
+        <div class="service-content">
+          <div class="service-icon">
+            <i class="fas fa-video"></i>
+          </div>
+          <h3>Video Editing</h3>
+          <p>Cinematic video editing with AI-enhanced effects and dynamic transitions.</p>
+          <ul>
+            <li>AI Color Correction</li>
+            <li>Dynamic Transitions</li>
+            <li>4K Editing</li>
+          </ul>
+          <a href="#get-started" class="service-cta">Discover More</a>
+        </div>
+      </div>
+      <div class="service-item">
+        <div class="service-image">
+          <img src="images/3d.webp" alt="3D Animation Designs">
+          <div class="image-overlay"></div>
+        </div>
+        <div class="service-content">
+          <div class="service-icon">
+            <i class="fas fa-cube"></i>
+          </div>
+          <h3>3D Animation Designs</h3>
+          <p>Mesmerizing 3D animations for storytelling, product demos, and immersive experiences.</p>
+          <ul>
+            <li>Realistic Rendering</li>
+            <li>Interactive 3D Models</li>
+            <li>VR-Compatible</li>
+          </ul>
+          <a href="#get-started" class="service-cta">Discover More</a>
+        </div>
+      </div>
+      <div class="service-item">
+        <div class="service-image">
+          <img src="images/3dad.jpg" alt="Animated Ads">
+          <div class="image-overlay"></div>
+        </div>
+        <div class="service-content">
+          <div class="service-icon">
+            <i class="fas fa-ad"></i>
+          </div>
+          <h3>Animated Ads</h3>
+          <p>Dynamic animated ads with holographic effects and interactive elements.</p>
+          <ul>
+            <li>Holographic Effects</li>
+            <li>Interactive Ads</li>
+            <li>Cross-Platform</li>
+          </ul>
+          <a href="#get-started" class="service-cta">Discover More</a>
+        </div>
+      </div>
+      <div class="service-item">
+        <div class="service-image">
+          <img src="images/ads.avif" alt="Google Ads">
+          <div class="image-overlay"></div>
+        </div>
+        <div class="service-content">
+          <div class="service-icon">
+            <i class="fab fa-google"></i>
+          </div>
+          <h3>Google Ads</h3>
+          <p>Targeted Google Ads campaigns with AI optimization for maximum ROI.</p>
+          <ul>
+            <li>AI Bid Optimization</li>
+            <li>Dynamic Ads</li>
+            <li>Conversion Tracking</li>
+          </ul>
+          <a href="#get-started" class="service-cta">Discover More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action Section -->
+  <section id="cta" class="cta-section">
+    <h2 class="neon-text">Ready to Elevate Your Digital Game?</h2>
+    <p>Let's connect and bring your vision to life with our innovative services.</p>
+    <a href="#get-started" class="cta-btn pulse">Get Started Today</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-column">
+      <h4>Vyan</h4>
+      <p>Switch on your digital vision with futuristic solutions.</p>
+    </div>
+    <div class="footer-column">
+      <h4>Quick Links</h4>
+      <a href="index.html#home">Home</a>
+      <a href="services.html">Services</a>
+      <a href="index.html#portfolio">Our Work</a>
+      <a href="index.html#about">About Us</a>
+      <a href="index.html#team">Team</a>
+    </div>
+    <div class="footer-column">
+      <h4>Follow Us</h4>
+      <div class="social-icons">
+        <a href="https://www.instagram.com/accounts/edit/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/vyan-media-2464a6362/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=61575805499425" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.youtube.com/channel/UCj4hCkRWDqTfE0xVFWZ3gzw" target="_blank"><i class="fab fa-youtube"></i></a>
+        <a href="https://twitter.com/vyanmedia" target="_blank"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+    <div class="footer-column">
+      <h4>Contact</h4>
+      <p>Email: <a href="mailto:vyanmediaa@gmail.com">vyanmediaa@gmail.com</a></p>
+      <p>Phone: <a href="tel:+916300685106">+91 6300 685 106</a></p>
+    </div>
+    <div class="footer-bottom">
+      © 2025 Vyan - All Rights Reserved
+    </div>
+  </footer>
+
+  <script>
+    // Mobile Navigation Hamburger Toggle
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.querySelector('.nav-links');
+
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+
+    // Scroll Animations
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.service-item, .cta-section').forEach(item => {
+      observer.observe(item);
+    });
+
+    // Parallax Effect
+    window.addEventListener('scroll', () => {
+      const parallax = document.querySelector('.parallax-bg');
+      let scrollPosition = window.pageYOffset;
+      parallax.style.transform = `translateY(${scrollPosition * 0.5}px)`;
+    });
+  </script>
+</body>
+</html>

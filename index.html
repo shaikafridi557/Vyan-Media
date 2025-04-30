@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Vyan - Digital Agency | Web Development & Digital Marketing Services</title>
+  <meta name="description" content="Vyan Media - Professional digital agency offering web development, mobile apps, digital marketing, SEO, UI/UX design, and video editing services. Transform your digital vision into reality.">
+  <meta name="keywords" content="digital agency, web development, mobile apps, digital marketing, SEO services, UI/UX design, video editing, 3D animation">
+  <meta name="author" content="Vyan Media">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Vyan - Switch On Your Digital Vision">
+  <meta property="og:description" content="Professional digital agency offering comprehensive web and digital marketing solutions.">
+  <meta property="og:image" content="media/3d.gif">
+  <meta property="og:url" content="https://vyan.com">
+  <meta property="og:type" content="website">
+  <link rel="canonical" href="https://vyan.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Inter:wght@400;500;600&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    :root {
+      --heading-font: 'Playfair Display', serif;
+      --body-font: 'Inter', sans-serif;
+      --accent-font: 'Montserrat', sans-serif;
+      --logo-font: 'Playfair Display', serif;
+    }
+    body {
+      font-family: var(--body-font);
+    }
+    h1, h2, h3, h4, h5, h6 {
+      font-family: var(--heading-font);
+    }
+    .logo a {
+      font-family: var(--logo-font);
+      color: #ffffff;
+      font-size: 2.2rem;
+      font-weight: 600;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+      transition: all 0.3s ease;
+    }
+    .logo a:hover {
+      text-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    .cta-btn {
+      font-family: var(--accent-font);
+    }
+    .social-icons {
+      display: flex;
+      gap: 15px;
+      margin-top: 10px;
+    }
+    .social-icons a {
+      color: #ffffff;
+      font-size: 1.5rem;
+      transition: all 0.3s ease;
+    }
+    .social-icons a:hover {
+      color: #00ff00;
+      transform: translateY(-3px);
+    }
+  </style>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Vyan Media",
+      "url": "https://vyan.com",
+      "logo": "media/3d.gif",
+      "description": "Professional digital agency offering web development, mobile apps, digital marketing, and more",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "IN"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+91 12345 67890",
+        "contactType": "customer service",
+        "email": "contact@vyan.com"
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="index.html">VYAN MEDIA</a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="our-work.html">Our Work</a></li>
+        <li><a href="about-us.html">About Us</a></li>
+        <li><a href="blogs.html">Blogs</a></li>
+        <li><a href="contact.html" class="cta-btn">Get Started</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section (Full-Screen Carousel) -->
+  <section id="home" class="hero">
+    <div class="carousel">
+      <div class="carousel-slide" style="background-image: url('media/3d.gif');">
+        <h1 class="fade-in">Switch On Your Digital Vision</h1>
+        <p class="fade-in">Transforming Ideas into Digital Reality</p>
+        <a href="#services" class="cta-btn slide-up">Explore Services</a>
+      </div>
+      <div class="carousel-slide" style="background-image: url('media/digital\ marketing.gif');">
+        <h1 class="fade-in">Innovative Web and Mobile Solutions</h1>
+        <p class="fade-in">Bringing Your Digital Ideas to Life</p>
+        <a href="#services" class="cta-btn slide-up">Explore Services</a>
+      </div>
+      <div class="carousel-slide" style="background-image: url('media/website\ video.gif');">
+        <h1 class="fade-in">Next-Gen Digital Marketing</h1>
+        <p class="fade-in">Optimizing Your Presence Online</p>
+        <a href="#services" class="cta-btn slide-up">Learn More</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <h2 class="section-heading">We Provide the Following Services</h2>
+    <div class="service-card fade-in-up">
+      <h3>Web Applications</h3>
+      <p>Powerful, scalable web applications tailored for your business growth.</p>
+    </div>
+    <div class="service-card fade-in-up">
+      <h3>Mobile Applications</h3>
+      <p>High-quality mobile apps designed for seamless user experiences on Android & iOS.</p>
+    </div>
+    <div class="service-card fade-in-up">
+      <h3>Digital Marketing</h3>
+      <p>Comprehensive digital strategies to build your brand and boost your online presence.</p>
+    </div>
+    <div class="service-card fade-in-up">
+      <h3>SEO</h3>
+      <p>Advanced SEO techniques to rank higher, attract traffic, and drive more conversions.</p>
+    </div>
+    <div class="service-card fade-in-up">
+      <h3>UI/UX Designs</h3>
+      <p>Creative, intuitive designs that deliver outstanding user experiences.</p>
+    </div>
+    <div class="service-card fade-in-up">
+      <h3>Video Editing</h3>
+      <p>Professional video editing to tell your story and engage your audience effectively.</p>
+    </div>
+    <div class="service-card fade-in-up">
+      <h3>3D Animation Designs</h3>
+      <p>Eye-catching 3D animations that make your brand stand out with creativity.</p>
+    </div>
+    <div class="service-card fade-in-up">
+      <h3>Animated Ads</h3>
+      <p>Dynamic, engaging animated advertisements to captivate your target audience.</p>
+    </div>
+    <div class="service-card fade-in-up">
+      <h3>Google Ads</h3>
+      <p>Targeted Google Ads campaigns to maximize your reach and ROI.</p>
+    </div>
+  </section>
+
+  <!-- Tech Showcase Section -->
+  <section id="tech-showcase" class="tech-showcase">
+    <h2>Technologies We Use</h2>
+    <div class="tech-container">
+      <div class="tech-card slide-in-left">
+        <img src="images/react.png" alt="Tech 1">
+        <h3>React</h3>
+        <p>Building dynamic and high-performance UIs with React.</p>
+      </div>
+      <div class="tech-card slide-in-left">
+        <img src="images/node.png" alt="Tech 2">
+        <h3>Node.js</h3>
+        <p>Creating scalable backend solutions using Node.js.</p>
+      </div>
+      <div class="tech-card slide-in-left">
+        <img src="images/ai.jpeg" alt="Tech 3">
+        <h3>AI & Machine Learning</h3>
+        <p>Utilizing AI to make data-driven decisions and automate processes.</p>
+      </div>
+      <div class="tech-card slide-in-left">
+        <img src="images/seotech.png" alt="Tech 4">
+        <h3>SEO & Analytics</h3>
+        <p>Leveraging SEO best practices to improve online visibility.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-column">
+      <h4>Vyan</h4>
+      <p>Switch on your digital vision with futuristic solutions.</p>
+    </div>
+    <div class="footer-column">
+      <h4>Quick Links</h4>
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="our-work.html">Our Work</a>
+      <a href="about-us.html">About Us</a>
+      <a href="blogs.html">Blogs</a>
+    </div>
+    <div class="footer-column">
+      <h4>Follow Us</h4>
+      <div class="social-icons">
+        <a href="https://www.instagram.com/accounts/edit/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/vyan-media-2464a6362/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=61575805499425" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.youtube.com/channel/UCj4hCkRWDqTfE0xVFWZ3gzw" target="_blank"><i class="fab fa-youtube"></i></a>
+        <a href="https://twitter.com/vyanmedia" target="_blank"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+    <div class="footer-column">
+      <h4>Contact</h4>
+      <p>Email: <a href="mailto:vyanmediaa@gmail.com">vyanmediaa@gmail.com</a></p>
+      <p>Phone: <a href="tel:+916300685106">+91 6300 685 106</a></p>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2025 Vyan - All Rights Reserved
+    </div>
+  </footer>
+
+  <script>
+    // Mobile Navigation Hamburger Toggle
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.querySelector('.nav-links');
+
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>

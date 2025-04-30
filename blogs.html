@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Explore Vyan Media's blog for insights on technology, digital marketing, 3D design, and innovation. Stay ahead with our expert tips and trends.">
+  <meta name="keywords" content="technology blogs, digital marketing tips, 3D design trends, innovation in tech, Vyan Media insights">
+  <meta name="author" content="Vyan Media">
+  <title>Vyan Media - Blogs</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Inter:wght@400;500;600&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/blog.css">
+  <style>
+    :root {
+      --heading-font: 'Playfair Display', serif;
+      --body-font: 'Inter', sans-serif;
+      --accent-font: 'Montserrat', sans-serif;
+      --logo-font: 'Playfair Display', serif;
+    }
+    body {
+      font-family: var(--body-font);
+    }
+    h1, h2, h3, h4, h5, h6 {
+      font-family: var(--heading-font);
+    }
+    .logo a {
+      font-family: var(--logo-font);
+      color: #ffffff;
+      font-size: 2.2rem;
+      font-weight: 600;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+      transition: all 0.3s ease;
+    }
+    .logo a:hover {
+      text-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    .cta-btn {
+      font-family: var(--accent-font);
+    }
+    .social-icons {
+      display: flex;
+      gap: 15px;
+      margin-top: 10px;
+    }
+    .social-icons a {
+      color: #ffffff;
+      font-size: 1.5rem;
+      transition: all 0.3s ease;
+    }
+    .social-icons a:hover {
+      color: #00ff00;
+      transform: translateY(-3px);
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="index.html">VYAN MEDIA</a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="our-work.html">Our Work</a></li>
+        <li><a href="about-us.html">About Us</a></li>
+        <li><a href="blogs.html" class="active">Blogs</a></li>
+        <li><a href="contact.html" class="cta-btn">Get Started</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="blog-hero" class="blog-hero">
+    <div class="parallax-bg" style="background-image: url('images/blogs.avif');"></div>
+    <div class="hero-content">
+      <h1 class="neon-text">Vyan Media Blogs</h1>
+    </div>
+  </section>
+
+  <!-- Blog Section -->
+  <section id="blogs" class="blog-section" itemscope itemtype="https://schema.org/Blog">
+    <h2 class="section-heading neon-text">Explore Our Latest Insights</h2>
+    <p class="section-intro">Stay ahead of the curve with our expert tips, trends, and strategies across diverse digital topics.</p>
+    <div class="blog-grid">
+      <!-- Blog Post 1: Technology -->
+      <article class="blog-card" itemscope itemtype="https://schema.org/BlogPosting">
+        <img src="images/aiweb.jpeg"AI in Web Development" itemprop="image">
+        <div class="blog-content">
+          <h3 itemprop="headline">The Role of AI in Modern Web Development</h3>
+          <p itemprop="description">Discover how AI tools are revolutionizing web development, from automated coding to personalized user experiences.</p>
+          <a href="blog-post.html?id=1" class="read-more" itemprop="url">Read More</a>
+        </div>
+      </article>
+
+      <!-- Blog Post 2: Digital Marketing -->
+      <article class="blog-card" itemscope itemtype="https://schema.org/BlogPosting">
+        <img src="images/media.jpeg" alt="Social Media Trends 2025" itemprop="image">
+        <div class="blog-content">
+          <h3 itemprop="headline">Top Social Media Marketing Trends to Watch in 2025</h3>
+          <p itemprop="description">Learn about the latest trends in social media marketing, including AR filters, short-form video content, and AI-driven campaigns.</p>
+          <a href="blog-post.html?id=2" class="read-more" itemprop="url">Read More</a>
+        </div>
+      </article>
+
+      <!-- Blog Post 3: 3D Design -->
+      <article class="blog-card" itemscope itemtype="https://schema.org/BlogPosting">
+        <img src="images/3dmarketing.jpeg" alt="3D Design in Gaming" itemprop="image">
+        <div class="blog-content">
+          <h3 itemprop="headline">How 3D Design is Transforming the Gaming Industry</h3>
+          <p itemprop="description">Explore the impact of advanced 3D design techniques on creating immersive gaming experiences that captivate players.</p>
+          <a href="blog-post.html?id=3" class="read-more" itemprop="url">Read More</a>
+        </div>
+      </article>
+
+      <!-- Blog Post 4: Innovation -->
+      <article class="blog-card" itemscope itemtype="https://schema.org/BlogPosting">
+        <img src="images/vr.jpeg" alt="Future of VR in Business" itemprop="image">
+        <div class="blog-content">
+          <h3 itemprop="headline">The Future of VR: Revolutionizing Business Operations</h3>
+          <p itemprop="description">See how virtual reality is reshaping industries, from virtual meetings to product design and customer engagement.</p>
+          <a href="blog-post.html?id=4" class="read-more" itemprop="url">Read More</a>
+        </div>
+      </article>
+
+      <!-- Blog Post 5: Technology -->
+      <article class="blog-card" itemscope itemtype="https://schema.org/BlogPosting">
+        <img src="images/blockchain.jpeg" alt="Blockchain in Digital Solutions" itemprop="image">
+        <div class="blog-content">
+          <h3 itemprop="headline">Blockchain Beyond Crypto: Applications in Digital Solutions</h3>
+          <p itemprop="description">Uncover how blockchain technology is enhancing security and transparency in digital marketing and web development.</p>
+          <a href="blog-post.html?id=5" class="read-more" itemprop="url">Read More</a>
+        </div>
+      </article>
+
+      <!-- Blog Post 6: Digital Marketing -->
+      <article class="blog-card" itemscope itemtype="https://schema.org/BlogPosting">
+        <img src="images/seoservice.avif" alt="SEO for Small Businesses" itemprop="image">
+        <div class="blog-content">
+          <h3 itemprop="headline">SEO Strategies for Small Businesses in 2025</h3>
+          <p itemprop="description">Boost your small business's online presence with these actionable SEO tips tailored for 2025 trends.</p>
+          <a href="blog-post.html?id=6" class="read-more" itemprop="url">Read More</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-column">
+      <h4>Vyan</h4>
+      <p>Switch on your digital vision with futuristic solutions.</p>
+    </div>
+    <div class="footer-column">
+      <h4>Quick Links</h4>
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="our-work.html">Our Work</a>
+      <a href="about-us.html">About Us</a>
+      <a href="blogs.html">Blogs</a>
+    </div>
+    <div class="footer-column">
+      <h4>Follow Us</h4>
+      <div class="social-icons">
+        <a href="https://www.instagram.com/accounts/edit/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/vyan-media-2464a6362/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=61575805499425" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.youtube.com/channel/UCj4hCkRWDqTfE0xVFWZ3gzw" target="_blank"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+    <div class="footer-column">
+      <h4>Contact</h4>
+      <p>Email: <a href="mailto:vyanmediaa@gmail.com">vyanmediaa@gmail.com</a></p>
+      <p>Phone: <a href="tel:+916300685106">+91 6300 685 106</a></p>
+    </div>
+    <div class="footer-bottom">
+      © 2025 Vyan - All Rights Reserved
+    </div>
+  </footer>
+
+  <script>
+    // Mobile Navigation Hamburger Toggle
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.querySelector('.nav-links');
+
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+
+    // Scroll Animations
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.blog-card').forEach(item => {
+      observer.observe(item);
+    });
+
+    // Parallax Effect
+    window.addEventListener('scroll', () => {
+      const parallax = document.querySelector('.parallax-bg');
+      let scrollPosition = window.pageYOffset;
+      parallax.style.transform = `translateY(${scrollPosition * 0.5}px)`;
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Vyan - Our Work</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Inter:wght@400;500;600&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/work.css">
+  <style>
+    :root {
+      --heading-font: 'Playfair Display', serif;
+      --body-font: 'Inter', sans-serif;
+      --accent-font: 'Montserrat', sans-serif;
+      --logo-font: 'Playfair Display', serif;
+    }
+    body {
+      font-family: var(--body-font);
+    }
+    h1, h2, h3, h4, h5, h6 {
+      font-family: var(--heading-font);
+    }
+    .logo a {
+      font-family: var(--logo-font);
+      color: #ffffff;
+      font-size: 2.2rem;
+      font-weight: 600;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+      transition: all 0.3s ease;
+    }
+    .logo a:hover {
+      text-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    .cta-btn {
+      font-family: var(--accent-font);
+    }
+    .social-icons {
+      display: flex;
+      gap: 15px;
+      margin-top: 10px;
+    }
+    .social-icons a {
+      color: #ffffff;
+      font-size: 1.5rem;
+      transition: all 0.3s ease;
+    }
+    .social-icons a:hover {
+      color: #00ff00;
+      transform: translateY(-3px);
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="index.html">VYAN MEDIA</a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="our-work.html" class="active">Our Work</a></li>
+        <li><a href="about-us.html">About Us</a></li>
+        <li><a href="blogs.html">Blogs</a></li>
+        <li><a href="contact.html" class="cta-btn">Get Started</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section with Parallax -->
+  <section id="work-hero" class="services-hero">
+    <div class="parallax-bg" style="background-image: url('images/ourwork2.jpg');"></div>
+    <div class="hero-content">
+      <h1 class="neon-text">Our Work</h1>
+      <p class="fade-in">Discover the future of digital innovation through our visionary projects.</p>
+      <a href="#work-list" class="cta-btn pulse">Explore Our Creations</a>
+    </div>
+  </section>
+
+  <!-- Work List Section -->
+  <section id="work-list" class="services-list">
+    <h2 class="section-heading neon-text">Our Vision in Action</h2>
+    <p class="section-intro">As a startup, we're building our portfolio with bold, futuristic concepts that showcase our expertise in web applications, mobile apps, digital marketing, SEO, UI/UX designs, video editing, 3D animations, animated ads, and Google Ads. Here's a glimpse of what we can do for you.</p>
+    <div class="services-grid">
+      <div class="service-item">
+        <div class="service-image">
+          <img src="images/quantum.avif" alt="Quantum Dashboard">
+          <div class="image-overlay"></div>
+        </div>
+        <div class="service-content">
+          <div class="service-icon">
+            <i class="fas fa-globe"></i>
+          </div>
+          <h3>Quantum Dashboard</h3>
+          <p>A futuristic web application for managing interstellar projects. Featuring a holographic UI/UX design, real-time data visualization, and SEO optimization to ensure global reach.</p>
+          <ul>
+            <li>Holographic UI/UX</li>
+            <li>Real-Time Data Sync</li>
+            <li>SEO-Optimized</li>
+          </ul>
+          <span class="project-tags">Web App • UI/UX • SEO</span>
+        </div>
+      </div>
+      <div class="service-item">
+        <div class="service-image">
+          <img src="images/mobilestar.jpeg" alt="StarPulse Mobile App">
+          <div class="image-overlay"></div>
+        </div>
+        <div class="service-content">
+          <div class="service-icon">
+            <i class="fas fa-mobile-alt"></i>
+          </div>
+          <h3>StarPulse Mobile App</h3>
+          <p>A conceptual mobile app for space enthusiasts, offering cosmic event alerts, AR stargazing, and navigation tools. Promoted with targeted Google Ads for maximum engagement.</p>
+          <ul>
+            <li>AR Stargazing</li>
+            <li>Cosmic Event Alerts</li>
+            <li>Google Ads Campaign</li>
+          </ul>
+          <span class="project-tags">Mobile App • UI/UX • Google Ads</span>
+        </div>
+      </div>
+      <div class="service-item">
+        <div class="service-image">
+          <img src="images/brandcampign.png" alt="Galactic Brand Campaign">
+          <div class="image-overlay"></div>
+        </div>
+        <div class="service-content">
+          <div class="service-icon">
+            <i class="fas fa-bullhorn"></i>
+          </div>
+          <h3>Galactic Brand Campaign</h3>
+          <p>A mock digital marketing campaign for a space tourism company, featuring a 3D animation video, animated ads, and SEO strategies to boost online visibility.</p>
+          <ul>
+            <li>3D Animation Video</li>
+            <li>Animated Social Ads</li>
+            <li>SEO Optimization</li>
+          </ul>
+          <span class="project-tags">Digital Marketing • 3D Animation • SEO</span>
+        </div>
+      </div>
+      <div class="service-item">
+        <div class="service-image">
+          <img src="images/ui.jpg" alt="Neon Marketplace UI/UX">
+          <div class="image-overlay"></div>
+        </div>
+        <div class="service-content">
+          <div class="service-icon">
+            <i class="fas fa-paint-brush"></i>
+          </div>
+          <h3>Neon Marketplace UI/UX</h3>
+          <p>A prototype UI/UX design for a futuristic e-commerce platform selling cyberpunk gadgets. Features interactive 3D product previews and seamless navigation.</p>
+          <ul>
+            <li>Interactive 3D Previews</li>
+            <li>Neon Aesthetic Design</li>
+            <li>Seamless Navigation</li>
+          </ul>
+          <span class="project-tags">UI/UX • Web Design</span>
+        </div>
+      </div>
+      <div class="service-item">
+        <div class="service-image">
+          <img src="images/ads.jpeg" alt="Orbit Ad Series">
+          <div class="image-overlay"></div>
+        </div>
+        <div class="service-content">
+          <div class="service-icon">
+            <i class="fas fa-video"></i>
+          </div>
+          <h3>Orbit Ad Series</h3>
+          <p>A series of conceptual video ads for an orbital hotel chain, featuring 3D animation designs, cinematic video editing, and a digital marketing strategy to captivate audiences.</p>
+          <ul>
+            <li>3D Animation Designs</li>
+            <li>Cinematic Editing</li>
+            <li>Digital Marketing</li>
+          </ul>
+          <span class="project-tags">Video Editing • 3D Animation • Digital Marketing</span>
+        </div>
+      </div>
+      <div class="service-item">
+        <div class="service-image">
+          <img src="images/seoboost.jpeg" alt="CyberSEO Boost">
+          <div class="image-overlay"></div>
+        </div>
+        <div class="service-content">
+          <div class="service-icon">
+            <i class="fas fa-search"></i>
+          </div>
+          <h3>CyberSEO Boost</h3>
+          <p>A mock SEO campaign for a cybersecurity firm, featuring keyword-optimized content, animated ads for social media, and a Google Ads strategy to drive traffic and conversions.</p>
+          <ul>
+            <li>Keyword Optimization</li>
+            <li>Animated Social Ads</li>
+            <li>Google Ads Strategy</li>
+          </ul>
+          <span class="project-tags">SEO • Animation Ads • Google Ads</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action Section -->
+  <section id="cta" class="cta-section">
+    <h2 class="neon-text">Ready to Launch Your Vision?</h2>
+    <p>Let's create something extraordinary together. Contact us to start your digital journey with Vyan.</p>
+    <a href="contact.html" class="cta-btn pulse">Get Started Today</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-column">
+      <h4>Vyan</h4>
+      <p>Switch on your digital vision with futuristic solutions.</p>
+    </div>
+    <div class="footer-column">
+      <h4>Quick Links</h4>
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="our-work.html">Our Work</a>
+      <a href="about-us.html">About Us</a>
+      <a href="blogs.html">Blogs</a>
+    </div>
+    <div class="footer-column">
+      <h4>Follow Us</h4>
+      <div class="social-icons">
+        <a href="https://www.instagram.com/accounts/edit/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/vyan-media-2464a6362/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=61575805499425" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.youtube.com/channel/UCj4hCkRWDqTfE0xVFWZ3gzw" target="_blank"><i class="fab fa-youtube"></i></a>
+        <a href="https://twitter.com/vyanmedia" target="_blank"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+    <div class="footer-column">
+      <h4>Contact</h4>
+      <p>Email: <a href="mailto:vyanmediaa@gmail.com">vyanmediaa@gmail.com</a></p>
+      <p>Phone: <a href="tel:+916300685106">+91 6300 685 106</a></p>
+    </div>
+    <div class="footer-bottom">
+      © 2025 Vyan - All Rights Reserved
+    </div>
+  </footer>
+
+  <script>
+    // Mobile Navigation Hamburger Toggle
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.querySelector('.nav-links');
+
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+
+    // Scroll Animations
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.service-item, .cta-section').forEach(item => {
+      observer.observe(item);
+    });
+
+    // Parallax Effect
+    window.addEventListener('scroll', () => {
+      const parallax = document.querySelector('.parallax-bg');
+      let scrollPosition = window.pageYOffset;
+      parallax.style.transform = `translateY(${scrollPosition * 0.5}px)`;
+    });
+  </script>
+</body>
+</html>
